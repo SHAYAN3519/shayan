@@ -1,0 +1,15 @@
+
+contract getvalue{
+    int256 value;
+    
+    constructor() public{
+        
+        value = 56;
+    }
+    function get() public view returns(int256){
+        return value;
+    }
+    function set(int256 number) public{
+        value =number;
+    }
+}
